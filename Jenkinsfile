@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'git@github.com:aliraza34/dailytask.git'
+                git branch: 'main', url: 'https://github.com/aliraza34/dailytask.git'
             }
         }
         stage('Test') {
