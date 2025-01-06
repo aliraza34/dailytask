@@ -8,7 +8,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'echo Testing HTML file'
+                sh 'echo Running tests on HTML files'
+                // Add any HTML validation or linting tools here if needed
             }
         }
         stage('Deploy') {
@@ -29,4 +30,3 @@ pipeline {
         }
     }
 }
-
